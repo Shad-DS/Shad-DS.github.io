@@ -1,0 +1,7 @@
+S2DS (Science 2 Data Science) is a program designed to provide practical experience to academics, to help them in the job hunt. Pivigo (the company that organises S2DS) collaborates with companies on converting their business needs into short, 4-week projects, and assigns teams of 3 or more programmers to work on them. So, on my first week I learned that I was going to be working on a project for... Pivigo themselves!
+
+My team was involved in developing a command line PoC for data analysis pipelines, using both Python and Bash (the outcome of which was fully productised into <a href='https://www.siisti.ai/'>siisti.ai</a>). I was involved in market research and implementing NLP solutions. These intense 5 weeks were also my first exposure to working in a true collaborative technical environment, and to Agile as a framework; we had short sprint plans at the start of the week, scrums every morning, and retrospectives at the end of the week.
+
+I also learned that not all Data Science projects involve machine learning or deep learning; they massively depend on the business' requirements and objectives!
+
+After the 5 weeks, I gave a 5min speech to round out our time there, which is what the photo on the left shows!

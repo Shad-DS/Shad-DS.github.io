@@ -1,0 +1,56 @@
+[
+    {
+        "date_to": "July 2019",
+        "date_from": "April 2019",
+        "company": "Entrepreneur First",
+        "job_title": "LD12 Cohort Member",
+        "companyLink": "https://www.joinef.com/",
+        "photo": "img/EF_cohort.jpeg",
+        "descr": "src/data/career/EF_cohort.txt"
+    },
+    {
+        "date_to": "September 2019",
+        "date_from": "August 2019",
+        "company": "Pivigo",
+        "job_title": "S2DS Cohort Member",
+        "companyLink": "https://www.pivigo.com/",
+        "photo": "img/s2ds_cohort.jpeg",
+        "descr": "src/data/career/s2ds_cohort.txt"
+    },
+    {
+        "date_to": "August 2020",
+        "date_from": "September 2019",
+        "company": "59A",
+        "job_title": "Data Scientist",
+        "companyLink": "https://59a.co.uk/",
+        "photo": "img/59a_data_scientist.JPG",
+        "descr": "src/data/career/59a_data_scientist.txt"
+    },
+    {
+        "date_to": "August 2021",
+        "date_from": "September 2020",
+        "company": "59A",
+        "job_title": "Snr Data Scientist",
+        "companyLink": "https://59a.co.uk/",
+        "photo": "img/59a_snr_data_scientist.JPG",
+        "descr": "src/data/career/59a_snr_data_scientist.txt"
+    },
+    {
+        "date_to": "November 2023",
+        "date_from": "March 2022",
+        "company": "MCS World Services",
+        "job_title": "Snr Data Scientist",
+        "companyLink": "https://mcsaatchiworldservices.com/",
+        "photo": "img/WS_Snr_DS.JPG",
+        "descr": "src/data/career/WS_Snr_DS.txt"
+    },
+    {
+        "date_to": "Current",
+        "date_from": "May 2024",
+        "company": "MCS World Services",
+        "job_title": "Princ Data Scientist",
+        "companyLink": "https://mcsaatchiworldservices.com/",
+        "photo": "img/WS_Princ_DS.jpeg",
+        "descr": "src/data/career/WS_Princ_DS.txt"
+    }
+]

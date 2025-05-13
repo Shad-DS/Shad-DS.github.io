@@ -23,39 +23,33 @@
         </div>
       </header>
       <main class="content">
-        <h1 data-aos="fade-up">
-          <strong>Hi, I'm Shad!</strong>
-        </h1> 
-        <h1 data-aos="fade-up">
-        I'm <span id="txt-rotate"></span>
-        </h1>
-        <h3></h3>
+        <h1 data-aos="fade-up">Welcome to my Career Page!</h1>
+        <h3 id="page-welcome" data-aos="fade-up">
+          In here, I will take you through my career so far, highlighting 
+          some projects I've done and some lessons learned 
+          (easily or otherwise)! The jobs are in chronological order, so most recent at the bottom. This way it reads
+          more like a story. It is meant to be conversational and jovial. If you want the
+          professional version, please go to my LinkedIn by clicking on the LinkedIn icon on the top right.
+          <br/>
+          <br/>
+          Each job listed below has a photo on the 
+          left, followed by a description of what I did/do, with links to 
+          the company's website, my job title, when I started, and when I 
+          finished. Please note that the photos are <strong>not representative of the 
+          environment at the company</strong>, but merely snapshops of my 
+          memories there.
+        </h3>
         <nav>
-          <a class="here" href="index.html" data-aos="fade-up">Home</a>
-          <a href="career.html" data-aos="fade-up">Career</a>
+          <a href="index.html" data-aos="fade-up">Home</a>
+          <a class="here" href="career.html" data-aos="fade-up">Career</a>
           <a href="projects.html" data-aos="fade-up">Projects</a>
           <a href="certs.html" data-aos="fade-up">Courses</a>
         </nav>
-
         <h3></h3>
-
-        <div class="bio" data-aos="fade-up">
-          <div class="photo">
-            <img src="img/IMG_0177_JPEG_small.jpg" alt="me!" />
-          </div>
-          <div class="written">
-            <h4>
-              I'm a Data Scientist with 8+ years of experience, driven by curiosity and a 
-              love for turning complex problems into clear processes and insights. My story has taken me 
-              through a D.Phil. at Oxford and the world of Digital Advertising, always with data at the core. 
-              I enjoy building fast prototypes in Python, mentoring others, and exploring how data can 
-              spark better decisions and deeper understanding across teams.
-            </h4>
-          </div>
-        </div>
+        <!-- Insert divs with career highlights here. -->
+        <div class="careers" data-aos="fade-up"></div>
       </main>
-      <footer>
-        <p>The entire website was partially inpired by the <a href="https://github.com/OSSPhilippines/freefolio/tree/main/clean">Clean</a> Template from the <a href="https://github.com/OSSPhilippines">OSSPhilipiles</a> initiative.</p></footer>
+
     </div>
     
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -65,6 +59,6 @@
           delay: 0
       });
     </script>
-    <script src="src/index.js"></script>
+    <script src="src/careers.js"></script>
   </body>
 </html>

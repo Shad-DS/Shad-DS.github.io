@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 75%;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  color: #3b3b3b;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 35rem;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.container header {
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.container header .social {
+  display: flex;
+  height: 100%;
+  width: 150px;
+  z-index: 2;
+}
+
+.container header .social a {
+  transition: all 100ms ease-in-out;
+}
+
+.container header .social a:hover {
+  transform: scale(1.25);
+  filter: invert(0);
+}
+
+.container header .social a img {
+  height: 6rem;
+  padding: 5px;
+}
+
+.container .content {
+  margin-bottom: 100px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.container .content h1, 
+.container .content h3, 
+.container .content hr, 
+.container .content .buttons {
+  z-index: 5;
+}
+
+.container .content h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-bottom: 3rem;
+}
+
+.container .content h1 span {
+  color: rebeccapurple;
+  animation-delay: 2s;
+  font-weight: 600;
+}
+
+.txt-rotate .wrap {
+  border-right: 0.08em solid #666;
+}
+
+.container {
+  overflow-y: scroll;
+}
+
+.container .content h3 {
+  border-bottom: 1px solid grey;
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0 auto 3rem auto;
+  padding-bottom: 3rem;
+  width: 75%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.container .content nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.container .content nav a {
+  padding: 1rem 2rem;
+  margin: .5rem 2rem;
+  outline: 2px solid #3b3b3b;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: rebeccapurple;
+  transition: all 300ms;
+}
+
+.container .content nav a:hover {
+  background: black;
+  color: white;
+}
+
+.container .content nav a.here {
+  font-weight: 1000;
+}
+
+.container .content .bio,
+.container .content .careers .careerDiv,
+.container .content .projects .projectDiv {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  max-height: 650px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container .content .bio img,
+.container .content .careers img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 15%;
+  padding: 10px;
+}
+
+.container .content .bio .written {
+  max-width: 500px;
+  max-height: 300px;
+  padding: 10px;
+  font-family: monospace;
+  color: #5a5a5a;
+  font-size: 1.25rem;
+  text-align: justify;
+}
+
+.container .content .careers .careerDiv {
+  max-width: 1000px;
+  max-height: 1000px;
+  height: auto
+}
+
+.container .content .careers .topLine {
+  max-width: 750px;
+}
+
+.container .content .careers .topLine table{
+  width: 100%;
+}
+
+td {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  width: 25%;
+  height: 50px;
+  text-align: center;
+}
+
+td a,
+.container footer a,
+.container .content .careerDiv .descr a,
+.container .content .projectDiv a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.container .content .careers .careerDiv .descr {
+  max-width: 750px;
+  padding: 10px;
+  font-family: monospace;
+  color: #5a5a5a;
+  font-size: 1.25rem;
+  text-align: justify;
+  align-items: center;
+}
+
+.container .content .projects {
+  padding: 20px;
+  font-family: monospace;
+  color: #5a5a5a;
+  font-size: 1.25rem;
+  text-align: justify;
+  align-items: center;
+}
+
+.container .content .projects .projectDiv {
+  max-width: 750px;
+}
+
+.container .content .projects .projectDiv .info {
+  margin: 20px;
+  width: 250px;
+}
+
+.container .content .projects .projectDiv .info .projLink {
+  margin-top: 20px;
+}
+
+.container .content .projects .projectDiv .descr {
+  width: 500px;
+}
+
+.container .content .projects .projectDiv .techs ul {
+  margin-left: 15px
+}
+
+.container .content .projects .projectDiv .techs ul li ul li {
+  margin-left: 30px
+}
+
+.container footer {
+  text-align: justify;
+  align-items: center;
+  justify-content: center;
+}

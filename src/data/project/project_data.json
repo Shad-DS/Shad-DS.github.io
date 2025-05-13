@@ -1,0 +1,21 @@
+[
+    {
+        "projLink": "https://github.com/Shad-DS/Shad-DS.github.io",
+        "techs": {
+            "HTML": [], 
+            "CSS": [], 
+            "JavaScript": []
+        },
+        "descr": "src/data/project/website_descr.txt"
+    },
+    {
+        "projLink": "https://github.com/Shad-DS/games-wedding",
+        "techs": {
+            "Python": ["Flask", "SQLAlchemy"],
+            "SQL": ["PostgreSQL"],
+            "HTML": [],
+            "CSS": []
+        },
+        "descr": "src/data/project/games_descr.txt"
+    }
+]

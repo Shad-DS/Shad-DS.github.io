@@ -1,0 +1,5 @@
+The raw files for the website you are browsing through right now! 
+
+I wanted to take an existing template and modify it to showcase myself and my interests, with as few modification and with as much vanilla technology as possible. This makes it easy for me to understand how a language works and how to start improving some of the functionality of what I am doing.
+
+In the future, I'd like to have a section or sections where I use D3.js to create some interactive visuals!
