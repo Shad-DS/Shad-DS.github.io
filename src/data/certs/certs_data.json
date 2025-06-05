@@ -1,0 +1,66 @@
+{
+    "reed": [
+        {
+            "title": "Coaching & Mentoring - Advanced CPD Accredited Course",
+            "total_modules": 15,
+            "complete_modules": 15,
+            "descr": "This was one of my favourite courses to do. Learning about the distinction between the 2, I find that I enjoy coaching a lot more, but that mentoring is more fulfilling in the long run."
+        },
+        {
+            "title": "Leadership and Management",
+            "total_modules": 15,
+            "complete_modules": 5,
+            "descr": "I remember being interested in this when my brother and I were discussing these differences during his Masters. I am more of a manager then a leader, especially right now."
+        },
+        {
+            "title": "Project Management : Project Manager Advanced Diploma",
+            "total_modules": 15,
+            "complete_modules": 3,
+            "descr": "Project Management has had many faces and facets, from Waterfall to Agile. I find that I am interested in the idea of project management more than the practical."
+        },
+        {
+            "title": "Mental Health First Aid Level 5",
+            "total_modules": 14,
+            "complete_modules": 14,
+            "descr": "I've heard it elsewhere that developers are very bad at telling their own signs of stress at work. In part, I wanted to take this course to get a better understanding. It didn't really work, but I am learning more and more! 😅"
+        }
+    ],
+    "udemy": [
+        {
+            "title": "Master D3.js with Concepts & 25+ Projects | ~43 Hours",
+            "total_modules": 36,
+            "complete_modules": 36,
+            "link": "https://www.udemy.com/course/master-d3js-concepts-and-25-projects/",
+            "descr": "Many years ago, my old boss heard about D3.js for data visualisation. I am not a JavaScript developer, so this was my first exposure to both JS AND D3.js. I found it to be very bespoken and may not be very repeatable, but I would like to do more!"
+        },
+        {
+            "title": "100 Days of Code: The Complete Python Pro Bootcamp",
+            "total_modules": 100,
+            "complete_modules": 82,
+            "link": "https://www.udemy.com/course/100-days-of-code/",
+            "descr": "I've been a Python developer for ~10 years, and there are still parts of the language I don't know about! This is the perfect course to round out those edges."
+        },
+        {
+            "title": "ADVANCED Time Management Strategies For Top-1% Productivity",
+            "total_modules": 16,
+            "complete_modules": 6,
+            "link": "https://www.udemy.com/course/time-management-for-students-professionals-entrepreneurs/",
+            "descr": "If there is one thing I struggle with is managing my time. I have many hobbies, many interests, and often not enough time or energy to dedicate myself to them."
+        },
+        {
+            "title": "The Complete Full-Stack Web Development Bootcamp",
+            "total_modules": 43,
+            "complete_modules": 20,
+            "link": "https://www.udemy.com/course/the-complete-web-development-bootcamp/",
+            "descr": "I heard a lot about this React framework on JavaScript that makes it more of an object-oriented language, like Python. Why not explore it?"
+        }
+    ],
+    "agile": [
+        {
+            "title": "Professional Scrum Master 1",
+            "total_modules": 1,
+            "complete_modules": 1,
+            "descr": "This was a 2-day workshop that also included doing the PSM1 exam, which I passed. The course itself was nice, but I did wish it was more... practical. Find my certificate <a href='https://www.credly.com/badges/13dbb3f8-685a-489a-a3ed-4fed5adbae11'>here</a>."
+        }
+    ]
+}

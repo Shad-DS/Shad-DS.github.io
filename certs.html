@@ -39,12 +39,31 @@
             <a href="projects.html" data-aos="fade-up">Projects</a>
             <a class="here" href="certs.html" data-aos="fade-up">Courses</a>
         </nav>
-        <h3></h3>
+        <h3 data-aos="fade-up"></h3>
+        <div class="written">
+          <h4 data-aos="fade-up">
+            I am a prolific learner, and am always looking to make the best use of the courses
+            I pick up. Whether I picked a course on the cheap (<a href="https://www.reed.co.uk/courses/">Reed Courses</a> 
+            tends to have a number of them), or it is just something I am interested in, I am always 
+            trying to learn something new.
+            <br />
+            <br />
+            I've aggregated some of them and added them here. Click on one for the buttons below for more information!
+          </h4>
+        </div>
         <!-- Insert divs with career highlights here. -->
-        <div class="courses" data-aos="fade-up">Coming soon...</div>
+        <div class="courses" data-aos="fade-up">
+          <div class="buttons">
+            <button type="button" id="reed" onclick="showContent('reed')">Reed</button>
+            <button type="button" id="datacamp" onclick="showContent('agile')">Agile</button>
+            <button type="button" id="udemy" onclick="showContent('udemy')">Udemy</button>
+          </div>
+          <div class="courseDiv"></div>
+        </div>
       </main>
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="src/courses.js"></script>
     <script>       
       AOS.init({
           once: true,
