@@ -163,6 +163,22 @@ a {
   text-align: justify;
 }
 
+.container .content .written {
+  max-width: 750px;
+  max-height: 300px;
+  padding: 10px;
+  font-family: monospace;
+  color: #5a5a5a;
+  font-size: 1.25rem;
+  text-align: justify;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
 .container .content .careers .careerDiv {
   max-width: 1000px;
   max-height: 1000px;
@@ -238,8 +254,85 @@ td a,
   margin-left: 30px
 }
 
+.courses .buttons {
+  max-width: 750px;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.courses .buttons button {
+  height: 50px;
+  width: 250px;
+  margin: auto 25px auto 25px;
+  background-color: rebeccapurple;
+  color: #ffffff;
+  font-family: monospace;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
+.courses .courseDescr {
+  border-radius: 2.5px;
+}
+
+.courses .courseDiv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  align-items: center;
+  justify-items: center;
+}
+
+.courses .courseDiv .courseCard {
+  border: 1px solid;
+  border-radius: 5px;
+  height: 150px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 400px;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+  padding: 15px;
+}
+
+.courses .courseDiv .courseCard h4 {
+  font-size: 1.5em;
+}
+
+
 .container footer {
   text-align: justify;
   align-items: center;
   justify-content: center;
+}
+
+.progress-container {
+  width: 300px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0;
+  background-color: rebeccapurple;
+  transition: width 1s ease-in-out;
+}
+
+.label {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  color: #000;
 }
